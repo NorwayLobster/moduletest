@@ -22,3 +22,10 @@ func TestHello2(t *testing.T) {
 		t.Errorf("Hello() = %q, want %q", got, want)
 	}
 }
+
+func TestProverb(t *testing.T) {
+	want := "proverb"
+	if got := Proverb(); got != want {
+		t.Errorf("Proverb() = %q, want %q", got, want)
+	}
+}

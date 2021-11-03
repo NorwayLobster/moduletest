@@ -16,3 +16,7 @@ func Hello2() string {
 func Hello1() string {
 	return gomodone.SayHi("World")
 }
+
+func Proverb() string {
+	return "proverb"
+}
