@@ -1,16 +1,16 @@
 package moduletest
 
 // import "github.com/fyf2173/moduledependencytest"
-// import "github.com/NorwayLobster/gomodone"
+import "github.com/NorwayLobster/gomodone"
 
-func Hello1() string {
-	return "hello world"
+func Hello() string {
+	return "Hello World"
 }
 
 // func Hello() string {
 // return moduledependencytest.Hello()
 // }
 
-// func Hello() string {
-// return gomodone.SayHi("world")
-// }
+func Hello1() string {
+	return gomodone.SayHi("World")
+}
