@@ -15,3 +15,10 @@ func TestHello1(t *testing.T) {
 		t.Errorf("Hello() = %q, want %q", got, want)
 	}
 }
+
+func TestHello2(t *testing.T) {
+	want := "Hello World"
+	if got := Hello2(); got != want {
+		t.Errorf("Hello() = %q, want %q", got, want)
+	}
+}
