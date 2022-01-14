@@ -1,4 +1,4 @@
-package moduletest
+package hello
 
 import (
 	"github.com/NorwayLobster/gomodone"
