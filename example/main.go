@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"moduletest/hello"
+
+	"github.com/NorwayLobster/moduletest/hello"
 )
 
 func main() {
