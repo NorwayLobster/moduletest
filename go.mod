@@ -1,4 +1,4 @@
-module github.com/NorwayLobster/moduletest
+module github.com/NorwayLobster/moduletest/v3
 
 go 1.17
 
