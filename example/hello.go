@@ -11,12 +11,12 @@ import (
 	"log"
 
 	"github.com/NorwayLobster/moduletest/v3/greetings"
-	"github.com/NorwayLobster/moduletest/v3/hello"
+	helloworld "github.com/NorwayLobster/moduletest/v3/hello" //hello为路径名称, helloworld为包名 /* 包名和实际路径最后一个目录一致, 最方便; 包名和目录名不一致时需要注意： 目录名使用在文件层面，例如库的安装路径名、库文件名以及被导入时的路径； 包名使用在代码层面，例如调用包的函数时； */
 )
 
 func main() {
 	fmt.Println("hello world")
-	hello.Hello()
+	helloworld.Hello()
 
 	// Set properties of the predefined Logger, including
 	// the log entry prefix and a flag to disable printing

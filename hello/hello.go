@@ -1,4 +1,4 @@
-package hello
+package helloworld
 
 import (
 	"github.com/NorwayLobster/gomodone"
