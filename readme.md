@@ -15,7 +15,12 @@
 4. https://go.dev/blog/module-compatibility
 ## note:
  1.  依赖本地module的用法: https://go.dev/doc/tutorial/call-module-code
+	 replace指令
 	 replace example.com/greetings => ../greetings
+<<<<<<< HEAD
 
 
 # git revert
+=======
+ 2.  私有域名： go env -w GOPRIVATE=*.mingbai.com
+>>>>>>> fix example

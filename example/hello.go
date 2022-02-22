@@ -1,11 +1,17 @@
+/*
+ * @Date: 2022-02-22 17:11:27
+ * @LastEditors: ChengWang
+ * @LastEditTime: 2022-02-22 17:11:28
+ * @FilePath: /moduletest/example/hello.go
+ */
 package main
 
 import (
 	"fmt"
 	"log"
 
-	"github.com/NorwayLobster/moduletest/greetings"
-	"github.com/NorwayLobster/moduletest/hello"
+	"github.com/NorwayLobster/moduletest/v3/greetings"
+	"github.com/NorwayLobster/moduletest/v3/hello"
 )
 
 func main() {
